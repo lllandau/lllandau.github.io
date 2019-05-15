@@ -13,7 +13,7 @@ module.exports = (env, argv) => {
     // Define the destination directory and filenames of compiled resources
     output: {
       filename: "[name].bundle.js",
-      path: path.resolve(__dirname, "dist")
+      path: path.resolve(__dirname, "docs")
     },
 
     // Define development options
